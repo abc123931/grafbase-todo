@@ -1,6 +1,6 @@
-type TodoList @model {
+type User @model {
   id: ID!
-  title: String!
+  name: String!
   todos: [Todo]
 }
 
