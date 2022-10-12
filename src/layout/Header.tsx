@@ -2,10 +2,7 @@ import type { FC } from "react";
 import { NavLink } from "src/component/Button";
 import { pagesPath } from "src/lib/$path";
 
-const items = [
-  { href: pagesPath.$url().pathname, label: "Root" },
-  { href: pagesPath.about.$url().pathname, label: "About" },
-];
+const items = [{ href: pagesPath.$url().pathname, label: "Root" }];
 
 /**
  * @package
