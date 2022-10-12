@@ -419,6 +419,26 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@grafbase/cli-aarch64-apple-darwin@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-aarch64-apple-darwin/-/cli-aarch64-apple-darwin-0.9.1.tgz#28ae0d3670196341313df4b3a3229e84ad68aaa7"
+  integrity sha512-dFHF13OyhdY0uIDwqyitVCMpYOmegK35u97Z4tQ2cZG8SgnkJ1d680IYf2PDTyoQ7J/y8lCn+qNm42s1LdZwlQ==
+
+"@grafbase/cli-x86_64-apple-darwin@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-apple-darwin/-/cli-x86_64-apple-darwin-0.9.1.tgz#d4b7db224cde52fad2968b1b913291202a30101a"
+  integrity sha512-KNpDCtSygq63VpECZbHBEVLAz0yQ7YreRBpBqd9B6DolyJkiT4TCR4nHeqiEUXPyzPZiH61UQ7I7wcj+tWTgLA==
+
+"@grafbase/cli-x86_64-pc-windows-msvc@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-pc-windows-msvc/-/cli-x86_64-pc-windows-msvc-0.9.1.tgz#44e8f8db5c2b0a88acdb5dcb16b47ed28b319b67"
+  integrity sha512-8dXJ+LKBUTzVYNzzzjkFh83maUL8vMHJRaSEwsuEHXaLjLI9S+Jox7QXSOSpLXFAwRbnmKqoMVm3AQGV8u6YPw==
+
+"@grafbase/cli-x86_64-unknown-linux-musl@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-unknown-linux-musl/-/cli-x86_64-unknown-linux-musl-0.9.1.tgz#5ddfb9ebe5b6fc3e6befbef821258837b87c86a8"
+  integrity sha512-8jwCQSUDl14bYuWzIhSEPa42e1AoCurKDsRvQ5tkkv+gM748sMgvzyaTDmUv/ufO51SEo/HmTcgEazrVcSXjCA==
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -2739,6 +2759,16 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.9:
   version "4.2.9"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
+
+grafbase@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/grafbase/-/grafbase-0.9.1.tgz#65e457bab672b05b492b401f69cd587cb067f3fc"
+  integrity sha512-1BSxcS/uPN8XHQGhpsjntrZjBrXW9MIgHkgcZWbIoDsliJDwCTeJm1oFzZVJyWaRv9FY5d3bLey+fIejm5pimw==
+  optionalDependencies:
+    "@grafbase/cli-aarch64-apple-darwin" "^0.9.1"
+    "@grafbase/cli-x86_64-apple-darwin" "^0.9.1"
+    "@grafbase/cli-x86_64-pc-windows-msvc" "^0.9.1"
+    "@grafbase/cli-x86_64-unknown-linux-musl" "^0.9.1"
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
